@@ -1,8 +1,9 @@
 #使用前请安装阿里云sdk
 #在最下面的函数中填入AccessKey idAccessKey Secret和需要解析的域名即可
-#pip install aliyun-python-sdk-core
-#pip install aliyun-python-sdk-domain
-#pip install aliyun-python-sdk-alidns
+#pip3 install aliyun-python-sdk-core
+#pip3 install aliyun-python-sdk-domain
+#pip3 install aliyun-python-sdk-alidns
+#pip3 install requests
 from aliyunsdkcore.client import AcsClient #阿里云sdk必要库
 from aliyunsdkcore.acs_exception.exceptions import ClientException#阿里云sdk必要库
 from aliyunsdkcore.acs_exception.exceptions import ServerException#阿里云sdk必要库
